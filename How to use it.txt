@@ -1,0 +1,8 @@
+NOTE #1: WAVs needs to be placed.
+NOTE #2: Should implement XML reader to load language words
+
+EXAMPLE: <WeekEnd>Hello @bubblegum . Ohh skith @jump @jump @jump @pacman</WeekEnd>
+
+// Speak the phrase
+SpeechMacroProcessor smp = new SpeechMacroProcessor();
+smp.Process((Language)curLang, say);
