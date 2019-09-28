@@ -9,7 +9,7 @@ using System.IO;
 /*
 	HOW TO USE THE AUDIO PLAYER:
 
-			AudioPlayer ap = new AudioPlayer("Blue Oyster Bar.wav");
+			AudioPlayer ap = new AudioPlayer("SomeAudio.wav");
 			ap.Play();
 			//Console.ReadKey();
 */
